@@ -102,19 +102,16 @@ html, body {
     }
 }
 
-@media (max-height: 500px) {
-    img {
-        width: 20%;
-    }
 
-    p {
-        display: none;
-    }
-}
 
 @media (max-height: 400px) {
     img { 
+        width: 20%;
         padding-bottom: 30px;
+    }
+
+    p { 
+        display: none;
     }
 
     h1 {
